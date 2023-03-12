@@ -1,0 +1,48 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E4E5EA;
+    background-color: #1E1E1E;
+    background: radial-gradient(ellipse farthest-corner at 0% 40%, rgba(150, 26, 26) -80%, #1E1E1E 25.6%);
+    /* background: radial-gradient(ellipse farthest-corner at 49% 0%, #833AB4 -80%,  #1E1E1E 20.6%); */
+    
+}
+
+.none {
+    display: none !important;
+}
+
+.container {
+    width: 1340;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.element1 {
+    position: fixed;
+    top: 2px;
+    left: 868px;
+}
+
+
+
+.element2 {
+    position: fixed;
+    top: 83px;
+    left: 519px;
+}
+
+.element3 {
+    position: fixed;
+    top: 547px;
+    left: 851px;
+}
+
+@media (max-width: 1285px) {
+    .header-contact {
+        display: none;
+    }
+}

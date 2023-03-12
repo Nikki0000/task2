@@ -1,0 +1,147 @@
+.main {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 1340;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home {
+    padding-top: 94px;
+    /* max-width: 1140px; */
+    display: flex;
+    float: left;
+}
+
+
+
+.home-heading {
+    max-width: 362px;
+    font-weight: 400;
+    font-size: 48px;
+    color: #E4E5EA;
+
+}
+
+.home-text {
+    padding-top: 30px;
+    max-width: 275px;
+    font-weight: 275;
+    font-size: 18px;
+}
+
+.side {
+    
+    display: flex;
+    padding-top: 94px;
+}
+
+
+.side-content-img {
+    text-align: right;
+}
+
+.side-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.vigits {
+    max-width: 141px;
+    padding-top: 40px;
+    text-align: right;
+    
+}
+
+.dashboard {
+    max-width: 165px;
+    padding-left: 31px;
+    padding-top: 40px;
+    text-align: right;
+}
+
+.skype {
+    max-width: 194px;
+    padding-top: 30px;
+    padding-right: 30px;
+    text-align: right;
+        
+}
+
+.days {
+    max-width: 130px;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.v1, .d1, .s1, .y1 {
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+
+.v2, .d2, .s2, .y2 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.home-btn {
+    padding-top: 82px;
+    text-align: right;
+}
+
+.btn {
+    height: 61px;
+    padding: 21px 35px;
+    color: #E4E5EA;
+    font-size: 16px;
+    background-color: #4077F3;
+    
+
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: #E4E5EA;
+}
+
+
+@media (max-width: 600px) {
+    .main {
+        width: 320px;
+        justify-content: center;
+        display: inline-block;
+        justify-content: center;
+    }
+    .home {
+        display: inline-block;
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+    .side {
+        display: block;
+        
+    }
+    .side-content-img {
+        padding-left: 50px;
+        min-width: 350px;
+    }
+    .side-one, .side-two {
+        padding-left: 50px;
+    }
+    .v2, .d2, .s2, .y2 {
+        display: none;
+    }
+    .home-btn {
+        display: none;
+    }
+}
